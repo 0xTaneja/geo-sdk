@@ -1,5 +1,17 @@
 # @geoprotocol/geo-sdk
 
+## 0.14.0
+
+### Minor Changes
+
+- 0c0a8a2: feat(dao-space): add executeProposal function for executing passed DAO proposals
+- a2db1f5: Throw an error when an edit exceeds the 10MB size limit before uploading to IPFS.
+
+### Patch Changes
+
+- aaaad27: Fix outdated JSDoc in `createImage` and `proposeAddMember`, and fix variable typo in `proposeAddMember`.
+- c3a010b: Fix README examples to use personal space ID (`spaceId`) instead of wallet address for the `author` field in `publishEdit`.
+
 ## 0.13.1
 
 ### Patch Changes
