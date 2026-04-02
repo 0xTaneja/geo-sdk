@@ -13,6 +13,7 @@
   "exports": {
     "./package.json": "./package.json",
     ".": "./dist/index.js",
+    "./lite": "./dist/lite.js",
     "./proto": "./dist/proto.js",
     "./contracts": "./dist/contracts.js",
     "./abis": "./dist/abis.js"
